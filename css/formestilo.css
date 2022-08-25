@@ -1,0 +1,26 @@
+#central {
+    display: flex;
+    justify-content: center;
+}
+
+#formulario {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+label {
+    display: block;
+    padding-top: 13px;
+    padding-bottom: 3px;
+}
+
+input[type=radio] {
+    margin-top: 8px;
+    width: 40px;
+}
+
+input[type=checkbox] {
+    display: inline-flex;
+    margin-right: 5px;
+}

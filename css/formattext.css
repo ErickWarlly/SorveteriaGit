@@ -1,0 +1,19 @@
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 4px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    text-align: justify;
+    line-height: 35px;
+}
+
+#fonte {
+    font-size: 0.4em;
+}

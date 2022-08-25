@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(97, 30, 212, 0.7);
+
+}
+
+header,
+section,
+footer {
+    width: 100%;
+    margin: auto;
+}
+
+#endereco {
+    text-align: center;
+    background-color: rgb(6, 6, 6);
+    color: rgb(255, 255, 255);
+    height: auto;
+    margin-top: 3px;
+    width: 100%;
+    font-size: larger;
+    opacity: 0.9;
+}
+
+#navegacao {
+    margin-top: 10px;
+    display: flex;
+    height: auto;
+}
+
+#menu {
+    display: flex;
+    width: 25%;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+}
+
+ul li a:hover {
+    background-color: rgb(9, 8, 8, 0.2);
+}
+
+#titulo {
+    display: block;
+    width: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+#redes {
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+
+}
+
+.imgs {
+    display: flex;
+}
+
+.imgs li {
+    list-style: none;
+}
+
+img:hover {
+    width: 30px;
+    background-color: yellow;
+    border-radius: 15px;
+}
+
+#conteudoindex {
+    background-image: url("sorvetefundo.jpg");
+    background-position: center 100%;
+    background-repeat: no-repeat;
+    min-height: 800px;
+}
+
+
+span {
+    width: 100%;
+    display: block;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+
+#txt01 {
+    padding-top: 180px;
+    padding-bottom: 35px;
+    font-family: cursive;
+    font-size: 70px;
+    font-style: italic;
+}
+
+#txt02 {
+    font-style: italic;
+    font-family: cursive;
+    font-size: 90px;
+    font-weight: bold;
+}
